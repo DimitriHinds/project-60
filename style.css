@@ -1,0 +1,86 @@
+#welcome
+{
+  background: linear-gradient(#4287f5 0%,#42f2f5 100%);
+  text-align: center;
+  background-repeat:no-repeat;
+}
+.line
+{
+    height: 7px;
+    width: 100px;
+    background-color: black;
+    margin: 8px auto;
+}
+.profile
+{
+  border-radius: 50%;
+  width: 100px;
+}
+p
+{
+  font-size:18px;
+  color:darkviolet;
+}
+h1
+{
+  text-shadow:2px 2px #F8BBD0;
+    font-size:20px;
+  color:red;
+}
+#bio
+{
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    background-color: coral;
+}
+.menu
+{
+    list-style: none;
+    font-family: serif;
+    position: absolute;
+    z-index: 15;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+}
+.links
+{
+    float: left;
+    color: cyan;
+    font-family: fantasy;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.links:hover
+{
+    background-color: darkblue;
+}
+#swimmer
+{
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+#pic
+{
+    transition: transform .2s;
+    border: 10px solid #AAAAAA;
+    height: 600px;
+}
+#pic:hover
+{
+    transform: scale(0.9);
+}
+html
+{
+    scroll-behavior: smooth;
+    text-align: center;
+}
+body
+{
+    text-align: center;
+}
