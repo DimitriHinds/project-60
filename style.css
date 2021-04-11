@@ -38,11 +38,13 @@ h1
 {
     list-style: none;
     font-family: serif;
-    position: absolute;
+    position: fixed;
     z-index: 15;
-    top: 10px;
-    right: 30px;
+    top: 0px;
+    margin-top: 0px;
     cursor: pointer;
+    background-color: azure;
+    width: 100%;
 }
 .links
 {
@@ -50,10 +52,9 @@ h1
     color: cyan;
     font-family: fantasy;
     font-size: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
     padding-left: 10px;
     padding-right: 10px;
+    display: inline;
 }
 .links:hover
 {
@@ -74,6 +75,23 @@ h1
 #pic:hover
 {
     transform: scale(0.9);
+}
+#contact
+{
+    background-color: aqua;
+}
+.email a
+{
+    color: darkorange;
+    text-shadow: none;
+}
+.email h4
+{
+    display: inline;
+}
+#contact iframe
+{
+    width: 90%;
 }
 html
 {
